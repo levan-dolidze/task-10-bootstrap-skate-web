@@ -1,0 +1,23 @@
+.bg-light{
+    background-color:darkkhaki!important;
+}
+
+html{
+text-transform: capitalize;
+}
+
+footer{
+    
+     height:var(--footerheight);
+    
+ }
+ 
+ main{
+     min-height: var(--minheight)
+ }
+ 
+ :root{
+     
+     --footerheight:150px;
+     --minheight:calc(100vh -1078px);
+ }

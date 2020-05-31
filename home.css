@@ -1,0 +1,47 @@
+
+.carousel-item img{
+    height: 400px;
+    width: 1000px;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+#skateboards {
+   width: 1000px;
+   margin: auto;
+   margin-top: 30px;
+   
+}
+
+
+
+@media  (max-width:600px){
+
+    .carousel-item img{
+        height: 150px;
+        width: 40px;
+        
+    }
+    
+     
+}
+
+
+
+
+.card-img-top{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+
+@media (max-width:600px){
+    .card-img-top{
+        display: none;
+    }
+}
+
